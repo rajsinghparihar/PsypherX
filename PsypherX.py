@@ -10,7 +10,7 @@ import tabulate
 import time
 import sys
 
-fun_called_once = True
+fun_called_once = False
 def main():
     # can't have global animator objects because of bugs in animating the second iteration
     # to deal with this each time we call the function, a new animator is created.
@@ -18,8 +18,10 @@ def main():
     endingAnim = clanimate.Animator('scroll_text', 10, name = " => Exiting PsypherX", animation_frames="::::::::::::")
 
     # printing cool name/logo figlet text
-    if(fun_called_once):
+    global fun_called_once
+    if not fun_called_once:
         cli_output.outputName("PsypherX")
+        fun_called_once = True
 
     #Styling and colors
     print(Fore.CYAN + Style.BRIGHT,end='')
@@ -65,4 +67,3 @@ def main():
 # the program runs indefinately until you explitly select the exit application option.
 while True:
     main()
-    fun_called_once = True

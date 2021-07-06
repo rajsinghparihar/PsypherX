@@ -1,7 +1,7 @@
 import csv
 
 data = [["PASSWORD","KEY","PLATFORM USED"]]
-def store_data(password: str, key: str, platform: str)-> list[str]:
+def store_data(password: str, key: str, platform: str):
     data.append([password,key,platform])
     return data
 
