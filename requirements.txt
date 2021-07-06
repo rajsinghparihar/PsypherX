@@ -1,0 +1,6 @@
+pyinquirer
+clanimate
+pycryptodome
+colorama
+tabulate
+pyfiglet
