@@ -18,7 +18,7 @@ $ python3 PsypherX.py
 ```
 The whole process should look like this without any errors:
 
-<img src=""/>
+<img src="https://github.com/rajsinghparihar/PsypherX/blob/main/DemoGifs/Demo1.gif"/>
 
 # How to use
 - When the app is launched, it asks you the password that you wish to encrypt, the key that helps in the encryption process and the platform for which this password is used.
@@ -29,4 +29,4 @@ now, since my password isn't very secure, this app will make a new password for 
 and my weak password using the username as the key and encrypting the weak password with AES 128 encryption.
 - some additional features are that it stores your encrypted passwords along with the platform you use them for, in a csv file (passwords.csv) and shows them on the terminal in tablular format.
 The whole process of using the app looks like this:
-<img src=""/>
+<img src="https://github.com/rajsinghparihar/PsypherX/blob/main/DemoGifs/Demo2.gif"/>
