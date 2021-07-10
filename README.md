@@ -1,3 +1,11 @@
+# Motivation
+Why? 
+- Because it makes the world a better place. Also, making this was fun.
+- The whole text based gui looks cool to the nerd's eye.
+- I like text animations, they look old school.
+- also, people have weak passwords and I wanna change that.
+- Stay secure, Stay safe from COVID :)
+
 # Getting Started
 Start with setting up the local environment for running the app.
 first clone the repo.
@@ -31,5 +39,6 @@ The whole process should look like this without any errors:
 - So for example say that my password is "password" and my username for that platform is "raj_singh".
 - now, since my password isn't very secure, this app will make a new password for me using a combination of my username and my weak password using the username as the key and encrypting the weak password with AES 128 encryption.
 - some additional features are that it stores your encrypted passwords along with the platform you use them for, in a csv file (passwords.csv) and shows them on the terminal in tablular format.
+
 The whole process of using the app looks like this:
 <img src="https://github.com/rajsinghparihar/PsypherX/blob/main/DemoGifs/Demo2.gif"/>
