@@ -18,7 +18,7 @@ $ python -m pip install -r requirements.txt
 this command will install all necessary python libraries that are needed for the program to run.
 after this, just run the program by the following command
 ```BASH
-$ python3 PsypherX.py
+$ python PsypherX.py
 ```
 The whole process should look like this without any errors:
 
