@@ -4,13 +4,17 @@ first clone the repo.
 ```BASH
 $ git clone https://github.com/rajsinghparihar/PsypherX.git
 ```
-# Prerequisites
+# Requirements
 - all the prerequisite files are in the requirements.txt
 - make sure to run the following command
 ```BASH
 $ cd PsypherX
 $ pip install -r requirements.txt
 ````
+-If pip doesn't work on your system, use this command to install requirements
+```BASH
+$ python -m pip install -r requirements.txt
+```
 this command will install all necessary python libraries that are needed for the program to run.
 after this, just run the program by the following command
 ```BASH
